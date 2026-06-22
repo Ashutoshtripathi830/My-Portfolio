@@ -1,15 +1,20 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&family=Puritan:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
 *{
     margin: 0;
     padding: 0;
+    
 }
 body{
     background-image:url(hero_bg.png);
-    
+    height:auto;
 }
 .outline{
-    background-image: linear-gradient(to right, white, rgb(251, 251, 251));
+    background-image: url(bg_pastel_mesh.png);
     margin: 10vh 2vw 8vh 2vw;
     height: 100vh;
+
 }
 nav{ 
     display: flex;
@@ -63,3 +68,162 @@ nav ul li a:hover{
     color: rgb(182, 182, 182);
     
 }
+.intro{
+    margin-top: 2vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left{
+    display: flex;
+    
+    justify-content: center;
+    margin-left: 5vw;
+
+}
+.left h3{
+    color: black;
+    font-family: "Bitcount Grid Double", system-ui;
+    font-size: larger; 
+    
+}
+.left h1{
+    
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background:linear-gradient(to right, rgb(169, 117, 236), rgb(118, 3, 176));
+    color: transparent;
+    -webkit-background-clip:text ;
+    text-align: left;
+}
+.left p{
+    color: rgb(37, 37, 37);
+}
+.left ul{
+    display: flex;
+    align-items: center;
+    
+    margin:2vh 2vw 0 0 ;
+}
+.left ul li{
+    box-sizing: border-box;
+    list-style: none;
+    margin-right: 1vw;
+    
+}
+.left  ul li a{
+    text-decoration: none;
+    color: rgb(35, 35, 35);
+    text-align: center;
+}
+.cv{
+    padding:  1vh;
+    border: 1px solid black;
+    border-radius: 12%;
+    
+    
+}
+
+
+.right{
+    display: flex;
+    
+    justify-content: center;
+
+}
+
+.right img{
+    width:25% ;
+    border-radius: 12%;
+}
+.services{
+    margin-top: 5vh;
+    
+}
+
+.service_head{
+    text-align: center;
+margin-bottom: 5vh;
+}
+.service_head h1{
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background:linear-gradient(to right, rgb(185, 156, 223), rgb(58, 3, 176));
+    color: transparent;
+    -webkit-background-clip:text ;
+    
+}
+.ser-1{
+    
+    display: flex;
+    margin-left: 5vw;
+    margin-right: 7vw;
+    align-items: center;
+    padding: 1vh ;
+    border: 1px solid black;
+    
+}
+.ser-1 h3 {
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background:linear-gradient(to right, rgb(185, 156, 223), rgb(58, 3, 176));
+    color: transparent;
+    -webkit-background-clip:text ;
+}
+.ser-1 h2 {
+    margin: 0 2vw;
+    background:linear-gradient(to right, rgb(138, 72, 224), rgb(58, 3, 176));
+    color: transparent;
+    -webkit-background-clip:text ;
+}
+
+.ser-1 p{
+    text-align: center;
+    margin: 0 3vw 0 0;
+
+}
+
+.ser-2{
+    
+       
+    display: flex;
+    margin-left: 5vw;
+    margin-right: 7vw;
+    align-items: center;
+    padding: 1vh ;
+    border: 1px solid black;
+    
+}
+.ser-2 h3 {
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background:linear-gradient(to right, rgb(185, 156, 223), rgb(58, 3, 176));
+    color: transparent;
+    -webkit-background-clip:text ;
+}
+.ser-2 h2 {
+    margin: 0 2vw;
+    background:linear-gradient(to right, rgb(138, 72, 224), rgb(58, 3, 176));
+    color: transparent;
+    -webkit-background-clip:text ;
+}
+
+.ser-2 p{
+    text-align: center;
+    margin: 0 3vw;
+
+}
+.ser-1:hover{
+    background-image:linear-gradient(to right, rgb(219, 192, 248),rgb(207, 128, 253));
+    color: rgb(255, 255, 255);
+}
+
+.ser-2:hover{
+    background-image:linear-gradient(to right, rgb(219, 192, 248),rgb(207, 128, 253));
+    color: rgb(255, 255, 255);
+}
+
