@@ -49,21 +49,23 @@ nav ul{
     align-items: center;
     margin-left: auto;
     margin-right:2vw ;
+    
 }
 nav ul li{
     box-sizing: border-box;
     list-style: none;
     margin: 1.5vw ;
-    padding: 0.2vw;
+    
 }
 nav ul li a{
     text-decoration: none;
     color: rgb(35, 35, 35);
+    padding: 0.5vw;
 }
 nav ul li :hover{
     
     background-image: linear-gradient(to right, rgb(95, 63, 134), rgb(32, 1, 69));
-    padding: 0.2vw;
+    
     border-radius: 8%;
     
 
