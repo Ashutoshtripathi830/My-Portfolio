@@ -9,11 +9,13 @@
 body{
     background-image:url(hero_bg.png);
     height:auto;
+    background-repeat: no-repeat;
 }
 .outline{
     background-image: url(bg_pastel_mesh.png);
     margin: 10vh 2vw 8vh 2vw;
-    height: 100vh;
+    height: auto;
+    background-repeat: no-repeat;
 
 }
 nav{ 
