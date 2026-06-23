@@ -7,15 +7,17 @@
     
 }
 body{
-    background-image:url(hero_bg.png);
+    width: auto;
+    
+    background: linear-gradient(to top, rgb(238, 186, 250) , rgb(231, 176, 246), rgb(210, 205, 255) , rgb(251, 164, 232) );
     height:auto;
-    background-repeat: no-repeat;
+    
 }
 .outline{
-    background-image: url(bg_pastel_mesh.png);
+    width: auto;
+    background: linear-gradient(to bottom, rgb(255, 205, 252) , rgb(229, 164, 251), rgb(214, 152, 204) , rgb(223, 159, 255)  );
     margin: 10vh 2vw 8vh 2vw;
     height: auto;
-    background-repeat: no-repeat;
 
 }
 nav{ 
