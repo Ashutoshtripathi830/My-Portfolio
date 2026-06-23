@@ -345,6 +345,12 @@ background-image: linear-gradient(to left,rgb(228, 190, 255),rgb(227, 150, 245))
         text-align: center;
         padding: 30px 0;
     }
+        .left h1{
+        text-align: center;
+    }
+    .left p{
+        text-align: center;
+    }
     .intro .right {
     margin-top: 2vh;
         justify-content: center;
