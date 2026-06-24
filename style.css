@@ -7,62 +7,52 @@
     
 }
 body{
-    width: auto;
+    
     
     background: linear-gradient(to top,rgb(211, 135, 236), rgb(238, 186, 250) , rgb(231, 176, 246), rgb(210, 205, 255) , rgb(251, 164, 232) );
-    height:auto;
-    background-repeat: no-repeat;
+    height:100vh;
+    
     
 }
 .outline{
-    width: auto;
+    
     background: linear-gradient(to bottom,rgb(241, 191, 255), rgb(255, 250, 255) , rgb(231, 193, 250)  );
-    margin: 10vh 2vw 8vh 2vw;
-    height: auto;
+    max-width: 1200px;
+    margin: 20px auto 20px auto;
+    padding:10px 40px;
     border-radius: 10px;
 
 }
 nav{ 
     display: flex;
-    width: 96vw;
-    height: 10vh;
+    padding: 20px 0;
     justify-self:center;
     align-items: center;
-    box-sizing: border-box;
+    justify-content: space-between;
 }
 .logo{
-    margin-left: 2vw;
+    
     display: flex;
-    justify-self:center;
     align-items: center;
+    gap:10px;
 }
 .logo img{
-    width: 5vw;
+    width:60px;
 }
-.logo h3{
-    text-align: center;
-}
+
 .logo p{
 
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: medium;
-    margin: 0 0 0 2vw;
+    
     color: #3a3737;
-    text-align: center;
 }
-nav ul{
+nav ul {
     display: flex;
-    align-items: center;
-    margin-left: auto;
-    margin-right:5vw ;
-    
-}
-nav ul li{
-    box-sizing: border-box;
     list-style: none;
-    margin: 1.5vw ;
-    
+    gap: 20px;
 }
+
 nav ul li a{
     text-decoration: none;
     color: rgb(35, 35, 35);
@@ -81,16 +71,16 @@ nav ul li a:hover{
     
 }
 .intro{
-    margin-top: 15vh;
+    padding: 60px 0;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 .left{
     display: flex;
     
-    justify-content: center;
-    margin-left: 5vw;
+    flex:1;
+    
 
 }
 .left h3{
@@ -119,9 +109,9 @@ nav ul li a:hover{
     margin:2vh 2vw 0 0 ;
 }
 .left ul li{
-    box-sizing: border-box;
+    
     list-style: none;
-    margin-right: 1vw;
+    margin-right: 10px;
     
 }
 .left  ul li a{
@@ -130,7 +120,7 @@ nav ul li a:hover{
     text-align: center;
 }
 .cv{
-    padding:  1vh;
+    padding:  5px;
     border: 1px solid black;
     border-radius: 12px;
     
@@ -142,23 +132,28 @@ nav ul li a:hover{
 
 .right{
     display: flex;
-    
-    justify-content: center;
+    flex:1;
+    justify-content: flex-end;
+
 
 }
 
 .right img{
-    width:27% ;
-    border-radius: 20px;
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #fff;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
 }
 .services{
-    margin-top: 15vh;
+    padding: 60px 0;
     
 }
 
 .service_head{
     text-align: center;
-margin-bottom: 5vh;
+margin-bottom: 25px;
 }
 .service_head h1{
     font-family: "Archivo Black", sans-serif;
@@ -170,12 +165,12 @@ margin-bottom: 5vh;
     
 }
 .ser-1{
-    margin-bottom: 2vh;
+    margin-bottom: 10px;
     display: flex;
-    margin-left: 5vw;
-    margin-right: 7vw;
+    
+    
     align-items: center;
-    padding: 1vh ;
+    padding: 5px ;
     background-image: linear-gradient(to right,rgb(228, 190, 255),rgb(227, 150, 245));
 border-radius: 9px;
     
@@ -189,27 +184,27 @@ border-radius: 9px;
     -webkit-background-clip:text ;
 }
 .ser-1 h2 {
-    margin: 0 2vw;
+    margin: 0 20px;
     background:linear-gradient(to right, rgb(138, 72, 224), rgb(58, 3, 176));
     color: transparent;
     -webkit-background-clip:text ;
 }
 
 .ser-1 p{
-    text-align: center;
-    margin: 0 3vw 0 0;
+    text-align: auto;
+    margin: 0 30px 0 0;
 
 }
 
 .ser-2{
-    margin-bottom: 2vh;
+    margin-bottom: 10px;
     display: flex;
-    margin-left: 5vw;
-    margin-right: 7vw;
+    
     align-items: center;
-    padding: 1vh ;
+    padding: 5px ;
     background-image: linear-gradient(to right,rgb(228, 190, 255),rgb(227, 150, 245));
 border-radius: 9px;
+    
 }
 .ser-2 h3 {
     font-family: "Archivo Black", sans-serif;
@@ -220,15 +215,15 @@ border-radius: 9px;
     -webkit-background-clip:text ;
 }
 .ser-2 h2 {
-    margin: 0 2vw;
+    margin: 0 20px;
     background:linear-gradient(to right, rgb(138, 72, 224), rgb(58, 3, 176));
     color: transparent;
     -webkit-background-clip:text ;
 }
 
 .ser-2 p{
-    text-align: center;
-    margin: 0 3vw;
+    text-align: auto;
+    margin: 0 30px;
 
 }
 
@@ -241,13 +236,14 @@ background-image: linear-gradient(to left,rgb(228, 190, 255),rgb(227, 150, 245))
 }
 
 .my-info{
-    margin-top: 15vh;
-    display: flex;
+    padding: 60px 0;
     
+    display: flex;
+    justify-content: space-between;
     align-items: center;
 }
 .exp{
-    margin:0 0 0 10vh;
+    
 }
 .exp h2{
     text-align: center;
@@ -258,8 +254,8 @@ background-image: linear-gradient(to left,rgb(228, 190, 255),rgb(227, 150, 245))
 
 }
 .exp1{
-    margin-bottom: 2vh;
-padding:2vh 5vh 2vh 1vh ;
+     margin-bottom: 10px;
+padding:10px 75px 10px 5px ;
 
 background-image: linear-gradient(to right,rgb(228, 190, 255),rgb(227, 150, 245));
 border-radius: 12px;
@@ -270,17 +266,14 @@ border-radius: 12px;
 }
 .exp p{
     font-size: smaller;
-    margin-top: .5vh;
+    margin-top: 2.5px;
 }
 
 
 
 
 
-.edu{
-    margin-left: 20vw;
-    
-}
+
 
 .edu h2{
     text-align: center;
@@ -291,8 +284,8 @@ border-radius: 12px;
 
 }
 .edu1{
-    margin-bottom: 2vh;
-padding:2vh 15vh 2vh 1vh ;
+    margin-bottom: 10px;
+padding:10px 75px 10px 5px ;
 
 background-image: linear-gradient(to right,rgb(228, 190, 255),rgb(227, 150, 245));
 border-radius: 9px;
@@ -303,7 +296,7 @@ border-radius: 9px;
 }
 .edu p{
     font-size: smaller;
-    margin-top: .5vh;
+    margin-top: 2.5px;
 }
 .exp1:hover{
 background-image: linear-gradient(to left,rgb(228, 190, 255),rgb(227, 150, 245));
@@ -369,7 +362,7 @@ background-image: linear-gradient(to left,rgb(228, 190, 255),rgb(227, 150, 245))
 
     
     .my-info {
-        margin-top: 5vh;
+        margin-top: 25px;
         flex-direction: column;
         gap: 20px;
     }
