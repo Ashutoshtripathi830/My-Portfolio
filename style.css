@@ -9,26 +9,18 @@
 body{
     
     
-    background: linear-gradient(to top,rgb(211, 135, 236), rgb(238, 186, 250) , rgb(231, 176, 246), rgb(210, 205, 255) , rgb(251, 164, 232) );
-    height:100vh;
-    
+    background-color:#10002B;
+    height:auto;
+    padding: 30px 50px;
     
 }
-.outline{
-    
-    background: linear-gradient(to bottom,rgb(241, 191, 255), rgb(255, 250, 255) , rgb(231, 193, 250)  );
-    max-width: 1200px;
-    margin: 20px auto 20px auto;
-    padding:10px 40px;
-    border-radius: 10px;
 
-}
 nav{ 
     display: flex;
-    padding: 20px 0;
+    
     justify-self:center;
     align-items: center;
-    justify-content: space-between;
+        justify-content: space-between;
 }
 .logo{
     
@@ -45,7 +37,7 @@ nav{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: medium;
     
-    color: #3a3737;
+    color:#F5EFFF;
 }
 nav ul {
     display: flex;
@@ -55,12 +47,12 @@ nav ul {
 
 nav ul li a{
     text-decoration: none;
-    color: rgb(35, 35, 35);
+    color:#F5EFFF;
     padding: 0.5vw;
 }
 nav ul li :hover{
     
-    background-image: linear-gradient(to right, rgb(95, 63, 134), rgb(32, 1, 69));
+    background-color: #5A189A;
     
     border-radius: 12px;
     
@@ -71,9 +63,9 @@ nav ul li a:hover{
     
 }
 .intro{
-    padding: 60px 0;
+    padding: 40px 0;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
 }
 .left{
@@ -84,9 +76,9 @@ nav ul li a:hover{
 
 }
 .left h3{
-    color: black;
+    color: #ff00f2;
     font-family: "Bitcount Grid Double", system-ui;
-    font-size: larger; 
+    font-size:30px; 
     
 }
 .left h1{
@@ -94,13 +86,12 @@ nav ul li a:hover{
     font-family: "Archivo Black", sans-serif;
     font-weight: 400;
     font-style: normal;
-    background:linear-gradient(to right, rgb(169, 117, 236), rgb(118, 3, 176));
-    color: transparent;
-    -webkit-background-clip:text ;
+    color:#9D4EDD;
+    
     text-align: left;
 }
 .left p{
-    color: rgb(37, 37, 37);
+    color: #F5EFFF;
 }
 .left ul{
     display: flex;
@@ -116,18 +107,20 @@ nav ul li a:hover{
 }
 .left  ul li a{
     text-decoration: none;
-    color: rgb(35, 35, 35);
+    color: #F5EFFF;
     text-align: center;
+    font-weight: bold;
 }
 .cv{
-    padding:  5px;
+    padding:  8px 5px 5px 20px;
     border: 1px solid black;
     border-radius: 12px;
+    background-color: #5A189A;
     
     
 }
 .cv:hover{
-    background-image: linear-gradient(to left,rgb(228, 190, 255),rgb(227, 150, 245));
+    background-color: #9D4EDD;
 }
 
 .right{
@@ -143,7 +136,7 @@ nav ul li a:hover{
     height: 320px;
     border-radius: 50%;
     object-fit: cover;
-    border: 4px solid #fff;
+    border: 4px solid  #9D4EDD;
     box-shadow: 0 10px 25px rgba(0,0,0,0.1);
 }
 .services{
@@ -159,19 +152,22 @@ margin-bottom: 25px;
     font-family: "Archivo Black", sans-serif;
     font-weight: 400;
     font-style: normal;
-    background:linear-gradient(to right, rgb(185, 156, 223), rgb(58, 3, 176));
-    color: transparent;
-    -webkit-background-clip:text ;
-    
+    color: #9D4EDD;
 }
+
+.service_head p{
+    color: #F5EFFF;
+}
+
+
+
 .ser-1{
     margin-bottom: 10px;
     display: flex;
-    
-    
+    background-color: #5A189A;
     align-items: center;
     padding: 5px ;
-    background-image: linear-gradient(to right,rgb(228, 190, 255),rgb(227, 150, 245));
+    
 border-radius: 9px;
     
 }
@@ -179,94 +175,56 @@ border-radius: 9px;
     font-family: "Archivo Black", sans-serif;
     font-weight: 400;
     font-style: normal;
-    background:linear-gradient(to right, rgb(185, 156, 223), rgb(58, 3, 176));
-    color: transparent;
-    -webkit-background-clip:text ;
+    color:#E0AAFF;
+    padding-left:5px ;
 }
-.ser-1 h2 {
-    margin: 0 20px;
-    background:linear-gradient(to right, rgb(138, 72, 224), rgb(58, 3, 176));
-    color: transparent;
-    -webkit-background-clip:text ;
-}
+
 
 .ser-1 p{
-    text-align: auto;
-    margin: 0 30px 0 0;
-
+    padding-left: 10px;
+    font-weight:bold ;
+    font-size: medium;
+    color: #E0AAFF;
 }
 
-.ser-2{
-    margin-bottom: 10px;
-    display: flex;
-    
-    align-items: center;
-    padding: 5px ;
-    background-image: linear-gradient(to right,rgb(228, 190, 255),rgb(227, 150, 245));
-border-radius: 9px;
-    
-}
-.ser-2 h3 {
-    font-family: "Archivo Black", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    background:linear-gradient(to right, rgb(185, 156, 223), rgb(58, 3, 176));
-    color: transparent;
-    -webkit-background-clip:text ;
-}
-.ser-2 h2 {
-    margin: 0 20px;
-    background:linear-gradient(to right, rgb(138, 72, 224), rgb(58, 3, 176));
-    color: transparent;
-    -webkit-background-clip:text ;
-}
 
-.ser-2 p{
-    text-align: auto;
-    margin: 0 30px;
-
-}
-
-.ser-1:hover{
-background-image: linear-gradient(to left,rgb(228, 190, 255),rgb(227, 150, 245));
-}
-
-.ser-2:hover{
-background-image: linear-gradient(to left,rgb(228, 190, 255),rgb(227, 150, 245));
-}
 
 .my-info{
     padding: 60px 0;
     
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
 }
-.exp{
-    
-}
+
 .exp h2{
     text-align: center;
-    background:linear-gradient(to right, rgb(138, 72, 224), rgb(58, 3, 176));
-    color: transparent;
-    -webkit-background-clip:text ;
+    color: #9D4EDD;
     margin-bottom: 4vh;
-
+    font-weight: 30px;
 }
 .exp1{
-     margin-bottom: 10px;
+    margin-bottom: 10px;
 padding:10px 75px 10px 5px ;
 
-background-image: linear-gradient(to right,rgb(228, 190, 255),rgb(227, 150, 245));
+background-color:#5A189A;
 border-radius: 12px;
 }
 .exp1 h4{
     font-size: small;
-    color: rgb(158, 74, 235);
+    color: #E0AAFF;
+    font-weight: bold;
 }
-.exp p{
+.exp1 p{
     font-size: smaller;
     margin-top: 2.5px;
+    color: #E0AAFF;
+    text-align: justify;
+    font-weight: bold;
+}
+.exp1 h3{
+    text-align: justify;
+    color: #be6ffe;
 }
 
 
@@ -277,33 +235,32 @@ border-radius: 12px;
 
 .edu h2{
     text-align: center;
-    background:linear-gradient(to right, rgb(138, 72, 224), rgb(58, 3, 176));
-    color: transparent;
-    -webkit-background-clip:text ;
+    color: #9D4EDD;
     margin-bottom: 4vh;
-
+    font-weight: 30px;
 }
 .edu1{
     margin-bottom: 10px;
 padding:10px 75px 10px 5px ;
 
-background-image: linear-gradient(to right,rgb(228, 190, 255),rgb(227, 150, 245));
-border-radius: 9px;
+background-color:#5A189A;
+border-radius: 12px;
 }
 .edu1 h4{
     font-size: small;
-    color: rgb(158, 74, 235);
+    color: #E0AAFF;
+    font-weight: bold;
 }
-.edu p{
+.edu1 p{
     font-size: smaller;
     margin-top: 2.5px;
+    color: #E0AAFF;
+    text-align: justify;
+    font-weight: bold;
 }
-.exp1:hover{
-background-image: linear-gradient(to left,rgb(228, 190, 255),rgb(227, 150, 245));
-}
-
-.edu1:hover{
-background-image: linear-gradient(to left,rgb(228, 190, 255),rgb(227, 150, 245));
+.edu1 h3{
+    text-align: justify;
+    color: #be6ffe;
 }
 
 
@@ -368,7 +325,7 @@ background-image: linear-gradient(to left,rgb(228, 190, 255),rgb(227, 150, 245))
     }
 
 
-    .ser-1, .ser-2 {
+    .ser-1{
         flex-direction: column;
         text-align: center;
     }
