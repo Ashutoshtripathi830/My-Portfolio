@@ -322,6 +322,7 @@ border-radius: 12px;
         margin-top: 25px;
         flex-direction: column;
         gap: 20px;
+        justify-content: space-between;
     }
 
 
